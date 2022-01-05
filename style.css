@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url("header-shapes\ mobile@2x.png");
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 20px;
+  
+}
+
+nav > p {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color:#6070ff ;
+}
+
+.headline-content {
+  padding-top: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 360px;
+}
+
+h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px
+}
+
+.socials {
+  color: black;
+}
