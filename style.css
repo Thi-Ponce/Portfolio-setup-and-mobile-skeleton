@@ -5,8 +5,11 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   margin: 0;
   background-image: url("header-shapes\ mobile@2x.png");
+  background-repeat: repeat-y;
+  background-size: contain;
 }
 
 nav {
@@ -16,13 +19,14 @@ nav {
   padding: 0 20px;
 }
 
-p {
+a {
   font-family: Poppins, sans-serif;
+  text-decoration: none;
   font-size: 16px;
   line-height: 24px;
+  margin-top: 20px;
   color: #344563;
 }
-
 nav > p {
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -53,11 +57,14 @@ h3 {
   color: #7f8cff;
 }
 
-.socials > a {
-  margin: 0 5px;
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   color: #505f79;
 }
 
-ul {
-  list-style: none;
+li {
+  padding-right: 20px;
 }
