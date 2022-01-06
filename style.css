@@ -19,6 +19,14 @@ nav {
   padding: 0 20px;
 }
 
+p {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  justify-self: start;
+  color: #344563;
+}
+
 a {
   font-family: Poppins, sans-serif;
   text-decoration: none;
@@ -27,6 +35,7 @@ a {
   margin-top: 20px;
   color: #344563;
 }
+
 nav > p {
   font-family: Poppins, sans-serif;
   font-weight: bold;
