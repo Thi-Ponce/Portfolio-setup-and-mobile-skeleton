@@ -57,3 +57,7 @@ h3 {
   margin: 0 5px;
   color: #505f79;
 }
+
+ul {
+  list-style: none;
+}
