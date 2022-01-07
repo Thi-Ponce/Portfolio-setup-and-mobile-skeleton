@@ -157,7 +157,7 @@ button {
   align-items: center;
   background-color: transparent;
   border-radius: 10px;
-  border-color: #396df2;
+  border: 1px solid #7f8cff;
   height: 48px;
   padding: 12px;
   width: 124px;
@@ -166,6 +166,10 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+}
+
+.resume {
+  width: fit-content;
 }
 
 button:hover {
