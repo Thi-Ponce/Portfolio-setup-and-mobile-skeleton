@@ -9,7 +9,6 @@ body {
   margin: 0;
   background-image: url("header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
 }
 
 nav {
@@ -80,6 +79,13 @@ ul {
 
 li {
   padding-right: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  padding: 20px 0;
 }
 
 .portfolio-img {
@@ -188,7 +194,7 @@ button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 .languages {
@@ -209,8 +215,10 @@ button:active {
   line-height: 20px;
 }
 
-.open-list img {
-  padding: 10px 15px;
+.language-item img {
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
 }
 
 .languages li {
@@ -221,6 +229,25 @@ button:active {
   color: #000000;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.language-item {
+  display: flex;
+  align-content: center;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  color: #253858;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.language-item p {
+  align-items: center;
+  margin-left: 10px;
 }
 
 hr {
