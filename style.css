@@ -91,6 +91,7 @@ li {
   display: grid;
   justify-content: center;
   margin: 10px;
+  margin-bottom: 200px;
 }
 
 .canopy {
@@ -190,4 +191,39 @@ button:active {
   margin-left: 20px;
 }
 
+.languages {
+  display: flex;
+  flex-direction: column;
+}
 
+.open-list {
+  display: flex;
+  background-color: #f7f7f9;
+  margin-bottom: 5px;
+  align-items: center;
+  border-radius: 8px;
+  color: #253858;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.open-list img {
+  padding: 10px 15px;
+}
+
+.languages li {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+hr {
+  border: 1px solid #dfe1e6;
+  width: 327px;
+}
