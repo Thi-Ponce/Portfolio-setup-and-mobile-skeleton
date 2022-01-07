@@ -25,7 +25,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  align-content: flex-start;
+  text-align: left;
 }
 
 a {
@@ -75,21 +75,22 @@ ul {
   margin: 0;
   padding: 0;
   color: #505f79;
+
 }
 
 li {
   padding-right: 20px;
 }
 
-.first-card {
+.portfolio-img {
+  display: flex;
+  justify-self: center;
+}
+
+.works  div {
   display: grid;
   justify-content: center;
   margin: 10px;
-}
-
-.first-card > img {
-  display: flex;
-  justify-self: center;
 }
 
 .canopy {
@@ -134,7 +135,7 @@ li {
   padding: 4px 12px;
 }
 
-.first-card > p {
+.works  p {
   font-family: Poppins, sans-serif;
   font-size: 15px;
   line-height: 24px;
@@ -173,4 +174,20 @@ button:hover {
 button:disabled {
   color: #5e6c84;
   border-color: #5e6c84;
+  background-color: transparent;
 }
+
+button:active {
+  background-color: #2230d2;
+  color: #ffffff;
+  transition-duration: 0s;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+
