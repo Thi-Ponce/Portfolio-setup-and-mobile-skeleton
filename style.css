@@ -128,9 +128,8 @@ li {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+  float: left;
+  padding-bottom: 20px;
 }
 
 .tags > li {
