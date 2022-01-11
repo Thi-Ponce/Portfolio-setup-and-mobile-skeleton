@@ -128,8 +128,9 @@ li {
 }
 
 .tags {
-  float: left;
-  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .tags > li {
