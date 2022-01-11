@@ -311,6 +311,14 @@ hr {
   width: 327px;
 }
 
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  border: 2px solid red;
+}
+
 textarea {
   height: 170px;
   width: 327px;
