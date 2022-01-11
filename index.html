@@ -140,27 +140,27 @@
       <li class="language-item"><img src="./Bullets/html.png" alt="html-logo"><p>HTML</p></li>
       <li class="language-item"><img src="./Bullets/css.png" alt="css-logo"><p>CSS</p></li>
       <li>Frameworks<hr></li>
-      <li>Skills</li>
+      <li>Skills<hr></li>
     </ul>
-  </section>
-  <form action="https://formspree.io/f/xdobanld" method="POST">
-    <h1>Contact me</h1>
+  </section><br>
+  <form class="form" action="https://formspree.io/f/xdobanld" method="POST">
+    <h2>Contact me</h2>
     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     <ul>
       <li>
         <label for="name"></label>
-        <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30">
+        <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30" required>
       </li>
       <li>
         <label for="email"></label>
-        <input type="email" name="user_mail" id="mail" placeholder="youremail@email.com">
+        <input type="email" name="user_mail" id="email" placeholder="youremail@email.com" required>
       </li>
       <li>
         <label for="message"></label>
-        <textarea id="message" name="user_msg" placeholder="Write your message here" maxlength="500"></textarea>
+        <textarea id="message" name="user_msg" placeholder="Write your message here" maxlength="500" required></textarea>
       </li>
     </ul>
-    <button type="submit" class="sumbit-form">Get in Touch</button>
+    <button type="submit" class="submit-form">Get in Touch</button>
   </form>
 </body>
 </html>
