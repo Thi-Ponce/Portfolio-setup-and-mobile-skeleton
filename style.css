@@ -96,6 +96,11 @@ li {
   justify-content: center;
   margin: 10px;
   margin-bottom: 200px;
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .portfolio-img {
@@ -416,6 +421,7 @@ textarea {
     display: flex;
     gap: 20px;
   }
+
 
   .card:nth-child(odd) {
     flex-direction: row;
