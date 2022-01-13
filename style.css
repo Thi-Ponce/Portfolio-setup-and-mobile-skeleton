@@ -175,6 +175,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  transition: all 0.5s ease-out;
 }
 
 .resume {
