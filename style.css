@@ -365,7 +365,6 @@ textarea {
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    align-items: left;
     padding-left: 150px;
     border-bottom-left-radius: 20px;
   }
@@ -377,7 +376,10 @@ textarea {
     font-size: 35px;
     font-weight: bold;
     color: #091e42;
+  }
 
+  li p {
+    width: fit-content;
   }
 
   .headline-content > p {
@@ -385,7 +387,7 @@ textarea {
     height: 98px;
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0.3px
+    letter-spacing: 0.3px;
   }
 
   h3 {
@@ -394,11 +396,11 @@ textarea {
   }
 
   .socials {
-    width: 800;
-    height: 122px;
+    width: 800px;
+    height: 20px;
     padding-bottom: 20px;
   }
-/* ------------------------- */
+
   .works {
     display: grid;
     max-width: 992px;
@@ -420,23 +422,19 @@ textarea {
   }
 
   .card:nth-child(2n) {
-  flex-direction: row-reverse;
-}
+    flex-direction: row-reverse;
+  }
 
   .work-header > h1 {
-    margin: 0px;
+    margin: 0;
   }
 
   .tags {
     width: 75px;
-    height: 35px
+    height: 35px;
   }
 
   .tags li {
-    width: fit-content
-  }
-
-  li p {
     width: fit-content;
   }
 
@@ -452,10 +450,6 @@ textarea {
 
   .container-info > p {
     width: 350px;
-  }
-
-  .socials {
-    height: 20px;
   }
 
   .tag-container {
@@ -531,5 +525,4 @@ textarea {
   .submit-form {
     align-self: center;
   }
-
 }
