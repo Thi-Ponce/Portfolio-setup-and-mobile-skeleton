@@ -341,10 +341,6 @@ textarea {
 }
 
 @media (min-width: 992px) {
-  body {
-    max-width: 992px;
-  }
-
   .burger {
     display: none !important;
   }
@@ -409,7 +405,6 @@ textarea {
 
   .works {
     display: grid;
-    max-width: 992px;
     gap: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -422,7 +417,6 @@ textarea {
     display: flex;
     gap: 20px;
   }
-
 
   .card:nth-child(odd) {
     flex-direction: row;
@@ -510,7 +504,6 @@ textarea {
     background-size: 100%;
     background-position-x: center;
     background-position-y: center;
-    width: 992px;
     height: 840px;
     display: flex;
     flex-direction: column;
