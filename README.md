@@ -2,7 +2,7 @@
 
 # Portfolio Setup and Mobile Skeleton
 
-> This is my second project while studying at Microverse. It's a mobile skeleton for a portfolio I'll use in the future.
+> This is my second project while studying at Microverse. It's a mobile skeleton for a portfolio I'll use in the future. You can check it out by clicking this link: https://thi-ponce.github.io/Portfolio-setup-and-mobile-skeleton/
 
 ## Built With
 
