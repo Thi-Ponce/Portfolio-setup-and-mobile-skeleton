@@ -167,9 +167,9 @@ button {
   background-color: transparent;
   border-radius: 10px;
   border: 1px solid #7f8cff;
-  height: 48px;
+  height: fit-content;
   padding: 12px;
-  width: 124px;
+  width: fit-content;
   color: #396df2;
   font-family: Poppins, sans-serif;
   font-weight: 500;
