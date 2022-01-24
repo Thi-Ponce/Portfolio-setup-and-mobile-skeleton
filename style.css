@@ -56,6 +56,30 @@ nav {
   margin: 5px auto;
 }
 
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active {
+  position: fixed;
+}
+
+.hamburger.active .line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
+  transition: 0.5s; 
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.desktop-only.active {
+  transform: translateY(0);
+}
+
 p {
   display: flex;
   font-family: Poppins, sans-serif;
