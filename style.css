@@ -16,7 +16,7 @@ nav {
   padding: 0 20px;
 }
 
-.desktop-only {
+.nav-menu {
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -71,8 +71,12 @@ nav {
   transition: 0.5s;
 }
 
-.desktop-only.active {
+.nav-menu.active {
   transform: translateY(0);
+}
+
+.desktop-only {
+  display: none;
 }
 
 p {
@@ -404,7 +408,7 @@ textarea {
     display: flex;
     margin: 25px 32px 32px 0;
     color: #344563;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
