@@ -258,6 +258,7 @@ li > p {
   color: #fff;
   transition-duration: 0s;
 }
+
 /* Popup */
 .modal {
   position: fixed;

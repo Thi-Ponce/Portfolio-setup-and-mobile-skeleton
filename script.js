@@ -10,7 +10,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
- //activate popup1
+// activate popup1
 const open1 = document.getElementById('open1');
 const modalContainer1 = document.getElementById('modal1');
 const overlay = document.getElementById('overlay');
@@ -26,48 +26,48 @@ close1.addEventListener('click', () => {
   overlay.classList.remove('active');
 });
 
- //activate popup2
- const open2 = document.getElementById('open2');
- const modalContainer2 = document.getElementById('modal2');
- const close2 = document.getElementById('close2');
- 
- open2.addEventListener('click', () => {
-   modalContainer2.classList.add('active');
-   overlay.classList.add('active');
- });
- 
- close2.addEventListener('click', () => {
-   modalContainer2.classList.remove('active');
-   overlay.classList.remove('active');
- });
- //activate popup3
- const open3 = document.getElementById('open3');
- const modalContainer3 = document.getElementById('modal3');
- const close3 = document.getElementById('close3');
- 
- open3.addEventListener('click', () => {
-   modalContainer3.classList.add('active');
-   overlay.classList.add('active');
- });
- 
- close3.addEventListener('click', () => {
-   modalContainer3.classList.remove('active');
-   overlay.classList.remove('active');
- });
- //activate popup4
- const open4 = document.getElementById('open4');
- const modalContainer4 = document.getElementById('modal4');
- const close4 = document.getElementById('close4');
- 
- open4.addEventListener('click', () => {
-   modalContainer4.classList.add('active');
-   overlay.classList.add('active');
- });
- 
- close4.addEventListener('click', () => {
-   modalContainer4.classList.remove('active');
-   overlay.classList.remove('active');
- });
+// activate popup2
+const open2 = document.getElementById('open2');
+const modalContainer2 = document.getElementById('modal2');
+const close2 = document.getElementById('close2');
+
+open2.addEventListener('click', () => {
+  modalContainer2.classList.add('active');
+  overlay.classList.add('active');
+});
+
+close2.addEventListener('click', () => {
+  modalContainer2.classList.remove('active');
+  overlay.classList.remove('active');
+});
+// activate popup3
+const open3 = document.getElementById('open3');
+const modalContainer3 = document.getElementById('modal3');
+const close3 = document.getElementById('close3');
+
+open3.addEventListener('click', () => {
+  modalContainer3.classList.add('active');
+  overlay.classList.add('active');
+});
+
+close3.addEventListener('click', () => {
+  modalContainer3.classList.remove('active');
+  overlay.classList.remove('active');
+});
+// activate popup4
+const open4 = document.getElementById('open4');
+const modalContainer4 = document.getElementById('modal4');
+const close4 = document.getElementById('close4');
+
+open4.addEventListener('click', () => {
+  modalContainer4.classList.add('active');
+  overlay.classList.add('active');
+});
+
+close4.addEventListener('click', () => {
+  modalContainer4.classList.remove('active');
+  overlay.classList.remove('active');
+});
 
 // create the js object
 function Project(name, description, image, languages, live, source) {
@@ -125,7 +125,7 @@ document.getElementById('live-m').href = project1m.projectLive;
 
 document.getElementById('source-m').href = project1m.projectSource;
 
-// Card 2 
+// Card 2
 const project2 = new Project('Multi-Post Stories', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './Exported_elements/Images/Snapshoot_Portfolio_2.png', {
   lg1: 'html', lg2: 'css', lg3: 'javaScript',
 },
