@@ -36,7 +36,7 @@ nav {
 
 .nav-link {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -243,9 +243,7 @@ li > p {
 
 .button:hover {
   background-color: #6070ff;
-  box-shadow:
-    0 8px 16px
-    rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
   transition-duration: 0.5s;
 }
@@ -261,7 +259,7 @@ li > p {
   color: #fff;
   transition-duration: 0s;
 }
- /* Popup */
+/* Popup */
 .modal {
   position: fixed;
   top: 50%;
@@ -326,7 +324,7 @@ li > p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0 ,0, 0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
   pointer-events: none;
 }
 
@@ -481,7 +479,7 @@ textarea {
     display: flex;
     margin: 25px 32px 32px 0;
     color: #344563;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -533,6 +531,39 @@ textarea {
     width: 800px;
     height: 20px;
     padding-bottom: 20px;
+  }
+
+  /* Styling popup 1 */
+  .modal {
+    width: 900px;
+    max-width: 90%;
+    height: 650px;
+    padding: 0 15px 15px 15px;
+  }
+
+  .modal-img {
+    margin-top: 15px;
+  }
+
+  .modal-body {
+    display: flex;
+  }
+
+  .desktop-lg {
+    display: block;
+  }
+
+  .tags.tags-modal {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 300px;
+    gap: 5px;
+  }
+
+  .btn-modal {
+    padding-top: 40px;
   }
 
   .works {
