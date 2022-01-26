@@ -35,11 +35,11 @@ function Project(name, description, image, languages, live, source) {
   this.projectLive = live;
   this.projectSource = source;
 }
-
+// Card 1
 const project1 = new Project('Tonic', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './Exported_elements/Images/Snapshoot_Portfolio_1st_card.png', {
   lg1: 'html', lg2: 'css', lg3: 'javaScript',
 },
-'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+' https://thi-ponce.github.io/Portfolio-setup-and-mobile-skeleton/', 'https://github.com/Thi-Ponce/Portfolio-setup-and-mobile-skeleton');
 
 document.getElementById('title1').innerHTML = project1.projectName;
 
@@ -52,3 +52,51 @@ document.getElementById('lg1').innerHTML = project1.projectLanguages.lg1;
 document.getElementById('lg2').innerHTML = project1.projectLanguages.lg2;
 
 document.getElementById('lg3').innerHTML = project1.projectLanguages.lg3;
+
+// Modal 1 obj
+
+const project1m = new Project('Tonic', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", './Exported_elements/Images/Snapshoot_Portfolio_1st_card.png', {
+  lg1: 'html', lg2: 'css', lg3: 'javaScript', lg4: 'github', lg5: 'ruby', lg6: ' bootstraps',
+},
+'https://thi-ponce.github.io/Portfolio-setup-and-mobile-skeleton/', 'https://github.com/Thi-Ponce/Portfolio-setup-and-mobile-skeleton');
+
+document.getElementById('title1-m').innerHTML = project1m.projectName;
+
+document.getElementById('descrip1-m').innerHTML = project1m.projectDescription;
+
+document.getElementById('img1-m').src = project1m.projectImage;
+
+document.getElementById('lg1-m').innerHTML = project1m.projectLanguages.lg1;
+
+document.getElementById('lg2-m').innerHTML = project1m.projectLanguages.lg2;
+
+document.getElementById('lg3-m').innerHTML = project1m.projectLanguages.lg3;
+
+document.getElementById('lg4-m').innerHTML = project1m.projectLanguages.lg4;
+
+document.getElementById('lg5-m').innerHTML = project1m.projectLanguages.lg5;
+
+document.getElementById('lg6-m').innerHTML = project1m.projectLanguages.lg6;
+
+document.getElementById('live-m').href = project1m.projectLive;
+
+document.getElementById('source-m').href = project1m.projectSource;
+
+// Card 2 
+const project2 = new Project('Multi-Post Stories', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './Exported_elements/Images/Snapshoot_Portfolio_2.png', {
+  lg1: 'html', lg2: 'css', lg3: 'javaScript',
+},
+' https://thi-ponce.github.io/Portfolio-setup-and-mobile-skeleton/', 'https://github.com/Thi-Ponce/Portfolio-setup-and-mobile-skeleton');
+
+document.getElementById('title2').innerHTML = project2.projectName;
+
+document.getElementById('descrip2').innerHTML = project2.projectDescription;
+
+document.getElementById('img2').src = project2.projectImage;
+
+document.getElementById('lg1-2').innerHTML = project2.projectLanguages.lg1;
+
+document.getElementById('lg2-2').innerHTML = project2.projectLanguages.lg2;
+
+document.getElementById('lg3-2').innerHTML = project2.projectLanguages.lg3;
+
