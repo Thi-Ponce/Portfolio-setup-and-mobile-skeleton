@@ -90,9 +90,39 @@
         <li><p>css</p></li>
         <li><p>javaScript</p></li>
       </ul>
-      <button type="button">See Project</button>
+      <button type="button" class="button" id="open1">See Project</button>
       </div>
     </div>
+    <!-- popup1 -->
+    <div class="modal" id="modal1">
+      <div class="modal-header">
+        <h1 id="title1">Tonic</h1>
+        <button type="button" class="close-b" id="close1">&times;</button>
+      </div>
+      <ul class="modal-ul">
+        <li class="canopy">CANOPY</li>
+        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
+        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
+      </ul>
+      <img src="./Exported_elements/Images/Snapshoot_Portfolio_1st_card.png" alt="portfolio img" class="portfolio-img modal-img" id="img1">
+      <div class="modal-body">
+        <p id="descrip1">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="tags">
+          <li><p id="lg1">html</p></li>
+          <li><p id="lg2">css</p></li>
+          <li><p id="lg3">javaScript</p></li>
+          <li class="desktop-lg"><p id="lg4">github</p></li>
+          <li class="desktop-lg"><p id="lg5">ruby</p></li>
+          <li class="desktop-lg"><p id="lg6">Bootstraps</p></li>
+        </ul>
+        <div class="btn-modal">
+          <button type="button" class="button" id="live">See live <i class="fa fa-circle-o-notch modal-icon"></i></button>
+          <button type="button" class="button" id="source">See source <i class="fa fa-github modal-icon"></i></button>
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <!-- end popup1 -->
     <div class="card">
       <img src="./Exported_elements/Images/Snapshoot_Portfolio_2.png" alt="portfolio img" class="portfolio-img float-right">
       <div class="container">
@@ -110,7 +140,7 @@
         <li><p>css</p></li>
         <li><p>javaScript</p></li>
       </ul>
-      <button type="button">See Project</button>
+      <button type="button" class="button">See Project</button>
       </div>
     </div>
     <div class="card">
@@ -130,7 +160,7 @@
         <li><p>css</p></li>
         <li><p>javaScript</p></li>
       </ul>
-      <button type="button">See Project</button>
+      <button type="button" class="button">See Project</button>
       </div>
     </div>
     <div class="card">
@@ -150,7 +180,7 @@
         <li><p>css</p></li>
         <li><p>javaScript</p></li>
       </ul>
-      <button type="button">See Project</button>
+      <button type="button" class="button">See Project</button>
       </div>
     </div>
   </section>
@@ -176,7 +206,7 @@
         <a href="#"><i class="fab fa-angellist fa-lg"></i></a>
       </li>
     </ul><br>
-    <button type="button" class="resume">Get my resume</button><br>
+    <button type="button" class="resume button">Get my resume</button><br>
     </div>
     <div class="container-languages">
     <ul class="languages">
@@ -215,7 +245,7 @@
         <textarea id="message" name="user_msg" placeholder="Write your message here" maxlength="500" required></textarea>
       </li>
     </ul>
-    <button type="submit" class="submit-form">Get in Touch</button>
+    <button type="submit" class="submit-form button">Get in Touch</button>
   </form>
   <script src="script.js">
     
