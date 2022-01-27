@@ -307,7 +307,24 @@ storedInfo.userName = document.getElementById('name').value;
 storedInfo.userEmail = document.getElementById('email').value;
 storedInfo.userMsg = document.getElementById('message').value;
 
-// localStorage.setItem('storedInfo', JSON.stringify(storedInfo));
+localStorage.setItem("storedInfo", JSON.stringify(storedInfo));
 
 // let retrievedInfo = JSON.parse(localStorage.getItem('storedInfo'));
 }
+
+
+function showData() {
+  let showInfo = JSON.parse(localStorage.getItem("storedInfo"));
+
+  console.log(showInfo);
+
+  const name2 = document.getElementById('name');
+  const email2 = document.getElementById('email');
+  const msg2 = document.getElementById('message');
+
+  name2.value=showInfo.userName;
+  email2.value=showInfo.userEmail;
+  msg2.value=showInfo.userMsg;
+
+}
+
