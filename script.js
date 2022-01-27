@@ -262,3 +262,41 @@ document.getElementById('lg6-m-4').innerHTML = project4m.projectLanguages.lg6;
 document.getElementById('live-m-4').href = project4m.projectLive;
 
 document.getElementById('source-m-4').href = project4m.projectSource;
+
+// Form Validation 
+
+const form = document.getElementById('form');
+const userEmail = document.getElementById('email');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkForm();
+});
+
+function checkForm() {
+  const userEmailValue = userEmail.value.trim();
+
+  if (userEmailValue === '') {
+    setErrorFor(userEmail, 'Email cannot be empty');
+  } else if (userEmailValue.toLowerCase() !== userEmailValue) {
+    setErrorFor(userEmail, 'Email must be lowercase');
+  } else if (!isEmail(userEmailValue)) {
+    setErrorFor(userEmail, 'Invalid email');
+  } else {
+    setSuccessFor(userEmailValue);
+  }
+}
+
+function isEmail(email) {
+	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+function setErrorFor () {
+  const errorMessage = document.getElementById('error-msg');
+  errorMessage.innerText = message;
+  errorMessage.classList.add('active');
+}
+
+function setSucessFor() {
+  errorMessage.classList.remove('active');
+}
