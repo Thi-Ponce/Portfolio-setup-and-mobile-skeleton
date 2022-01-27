@@ -326,25 +326,28 @@
     </ul>
   </div>
   </section><br>
-  <form id="contact" class="form" action="https://formspree.io/f/xdobanld" method="POST">
-    <h2>Contact me</h2>
-    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <ul>
-      <li>
-        <label for="name"></label>
-        <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30" required>
-      </li>
-      <li>
-        <label for="email"></label>
-        <input type="email" name="user_mail" id="email" placeholder="youremail@email.com" required>
-      </li>
-      <li>
-        <label for="message"></label>
-        <textarea id="message" name="user_msg" placeholder="Write your message here" maxlength="500" required></textarea>
-      </li>
-    </ul>
-    <button type="submit" class="submit-form button">Get in Touch</button>
-  </form>
+  <section id="contact">
+    <form id="form" class="form" action="https://formspree.io/f/xdobanld" method="POST" novalidate>
+      <h2>Contact me</h2>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      <ul>
+        <li>
+          <label for="name"></label>
+          <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30" required>
+        </li>
+        <li>
+          <label for="email"></label>
+          <input type="email" name="user_mail" id="email" placeholder="youremail@email.com" required>
+        </li>
+        <li>
+          <label for="message"></label>
+          <textarea id="message" name="user_msg" placeholder="Write your message here" maxlength="500" required></textarea>
+        </li>
+      </ul>
+      <small id="error-msg"></small>
+      <button type="submit" class="submit-form button">Get in Touch</button>
+    </form>
+  </section>
   <script src="script.js">
     
   </script>

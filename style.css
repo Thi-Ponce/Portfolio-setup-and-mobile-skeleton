@@ -464,10 +464,23 @@ textarea {
 
 .submit-form {
   height: 48px;
-  width: 140px;
+  width: fit-content;
   border: none;
   background-color: #fff;
-  margin: 0 0 100px 24px;
+  margin: 0 0 100px 0;
+}
+
+#error-msg {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  visibility: hidden;
+}
+
+#error-msg.active {
+  visibility: visible;
 }
 
 @media (min-width: 992px) {
