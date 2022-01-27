@@ -294,3 +294,20 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   checkForm();
 });
+
+// Local storage exercise
+function saveData() {
+let storedInfo = {};
+
+const name = document.getElementById('name');
+const email = document.getElementById('email');
+const msg = document.getElementById('message');
+
+storedInfo.userName = document.getElementById('name').value;
+storedInfo.userEmail = document.getElementById('email').value;
+storedInfo.userMsg = document.getElementById('message').value;
+
+// localStorage.setItem('storedInfo', JSON.stringify(storedInfo));
+
+// let retrievedInfo = JSON.parse(localStorage.getItem('storedInfo'));
+}
