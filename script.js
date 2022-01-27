@@ -282,8 +282,6 @@ function checkForm() {
     setErrorFor(userEmail, 'Email must be lowercase');
   } else if (!isEmail(userEmailValue)) {
     setErrorFor(userEmail, 'Invalid email');
-  } else {
-    setSuccessFor(userEmailValue);
   }
 }
 
@@ -291,12 +289,8 @@ function isEmail(email) {
 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
 
-function setErrorFor () {
+function setErrorFor (input, message) {
   const errorMessage = document.getElementById('error-msg');
   errorMessage.innerText = message;
   errorMessage.classList.add('active');
-}
-
-function setSucessFor() {
-  errorMessage.classList.remove('active');
 }
