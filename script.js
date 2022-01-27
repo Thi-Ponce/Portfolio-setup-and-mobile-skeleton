@@ -263,15 +263,20 @@ document.getElementById('live-m-4').href = project4m.projectLive;
 
 document.getElementById('source-m-4').href = project4m.projectSource;
 
-// Form Validation 
+// Form Validation
 
 const form = document.getElementById('form');
 const userEmail = document.getElementById('email');
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  checkForm();
-});
+function isEmail(email) {
+  return /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+function setErrorFor(input, message) {
+  const errorMessage = document.getElementById('error-msg');
+  errorMessage.innerText = message;
+  errorMessage.classList.add('active');
+}
 
 function checkForm() {
   const userEmailValue = userEmail.value.trim();
@@ -285,12 +290,7 @@ function checkForm() {
   }
 }
 
-function isEmail(email) {
-	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-}
-
-function setErrorFor (input, message) {
-  const errorMessage = document.getElementById('error-msg');
-  errorMessage.innerText = message;
-  errorMessage.classList.add('active');
-}
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkForm();
+});
