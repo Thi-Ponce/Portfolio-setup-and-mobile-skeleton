@@ -294,33 +294,3 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   checkForm();
 });
-
-// Local storage exercise
-function saveData() {
-  const storedInfo = {};
-
-  storedInfo.userName = document.getElementById('name').value;
-  storedInfo.userEmail = document.getElementById('email').value;
-  storedInfo.userMsg = document.getElementById('message').value;
-
-  localStorage.setItem('storedInfo', JSON.stringify(storedInfo));
-
-// let retrievedInfo = JSON.parse(localStorage.getItem('storedInfo'));
-}
-
-function showData() {
-  const showInfo = JSON.parse(localStorage.getItem('storedInfo'));
-
-  const name2 = document.getElementById('name');
-  const email2 = document.getElementById('email');
-  const msg2 = document.getElementById('message');
-
-  name2.value = showInfo.userName;
-  email2.value = showInfo.userEmail;
-  msg2.value = showInfo.userMsg;
-}
-// Added because linters said we didn't call the function even though everything was working
-if (true) {
-  saveData();
-  showData();
-}

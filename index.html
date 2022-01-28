@@ -1,352 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/2df075da03.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2df075da03.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Thiago's Portfolio</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMKBVGXFWN"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GMKBVGXFWN"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-GMKBVGXFWN');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-GMKBVGXFWN");
     </script>
-</head>
-<body onload="showData()">
-  <header class="nav">
-    <nav>
-      <a href="#">My Logo</a>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#work" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </ul>
-      <ul class="desktop-only">
-        <li class="nav-item">
-          <a href="#work">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </div>
-    </nav>
-  </header>
-  <section class="headline-content">
-    <h1>I'm Thiago <br>Glad to see you!</h1>
-    <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-    <h3>LET'S CONNECT</h3> 
-    <ul class="socials">
-      <li>
-        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-medium-m fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-github fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-angellist fa-lg"></i></a>
-      </li>
-    </ul>
-  </section>
-  <section class="works">
-    <div id="work" class="card">
-      <img id="img1" src="#" alt="portfolio img" class="portfolio-img float-left">
-      <div class="container">
-      <header class="work-header">
-        <h1 id="title1">Tonic</h1>
-        <ul>
-          <li class="canopy">CANOPY</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
+  </head>
+  <body>
+    <header class="nav">
+      <nav>
+        <a href="#">My Logo</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#work" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
         </ul>
-      </header>
-      <p id="descrip1">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups required.</p>
-      <ul class="tags">
-        <li><p id="lg1">html</p></li>
-        <li><p id="lg2">css</p></li>
-        <li><p id="lg3">javaScript</p></li>
+        <ul class="desktop-only">
+          <li class="nav-item">
+            <a href="#work">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <section class="headline-content">
+      <h1>I'm Thiago <br />Glad to see you!</h1>
+      <p>
+        I’m a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <h3>LET'S CONNECT</h3>
+      <ul class="socials">
+        <li>
+          <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-medium-m fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-angellist fa-lg"></i></a>
+        </li>
       </ul>
-      <button type="button" class="button" id="open1">See Project</button>
-      </div>
-    </div>
-    <!-- popup1 -->
-    <div class="modal" id="modal1">
-      <div class="modal-header">
-        <h1 id="title1-m">Tonic</h1>
-        <button type="button" class="close-b" id="close1">&times;</button>
-      </div>
-      <ul class="modal-ul">
-        <li class="canopy">CANOPY</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-      </ul>
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_1st_card.png" alt="portfolio img" class="portfolio-img modal-img" id="img1-m">
-      <div class="modal-body">
-        <p id="descrip1-m">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        <div class="lg-btn">
-          <ul class="tags tags-modal">
-            <li><p id="lg1-m">html</p></li>
-            <li><p id="lg2-m">css</p></li>
-            <li><p id="lg3-m">javaScript</p></li>
-            <li class="desktop-lg"><p id="lg4-m">github</p></li>
-            <li class="desktop-lg"><p id="lg5-m">ruby</p></li>
-            <li class="desktop-lg"><p id="lg6-m">Bootstraps</p></li>
+    </section>
+    <section class="works">
+      <div id="work" class="card">
+        <img
+          id="img1"
+          src="#"
+          alt="portfolio img"
+          class="portfolio-img float-left"
+        />
+        <div class="container">
+          <header class="work-header">
+            <h1 id="title1">Tonic</h1>
+            <ul>
+              <li class="canopy">CANOPY</li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />Back End Dev
+              </li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />2015
+              </li>
+            </ul>
+          </header>
+          <p id="descrip1">
+            A daily selection of privately<br />
+            personalized reads; no accounts or<br />
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li><p id="lg1">html</p></li>
+            <li><p id="lg2">css</p></li>
+            <li><p id="lg3">javaScript</p></li>
           </ul>
-          <div class="btn-modal">
-            <a  class="button" href="#" id="live-m">See live <i class="fa fa-circle-o-notch modal-icon"></i></a>
-            <a class="button" href="#" id="source-m">See source <i class="fa fa-github modal-icon"></i></a>
+          <button type="button" class="button" id="open1">See Project</button>
+        </div>
+      </div>
+      <!-- popup1 -->
+      <div class="modal" id="modal1">
+        <div class="modal-header">
+          <h1 id="title1-m">Tonic</h1>
+          <button type="button" class="close-b" id="close1">&times;</button>
+        </div>
+        <ul class="modal-ul">
+          <li class="canopy">CANOPY</li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />Back End Dev
+          </li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />2015
+          </li>
+        </ul>
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_1st_card.png"
+          alt="portfolio img"
+          class="portfolio-img modal-img"
+          id="img1-m"
+        />
+        <div class="modal-body">
+          <p id="descrip1-m">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="lg-btn">
+            <ul class="tags tags-modal">
+              <li><p id="lg1-m">html</p></li>
+              <li><p id="lg2-m">css</p></li>
+              <li><p id="lg3-m">javaScript</p></li>
+              <li class="desktop-lg"><p id="lg4-m">github</p></li>
+              <li class="desktop-lg"><p id="lg5-m">ruby</p></li>
+              <li class="desktop-lg"><p id="lg6-m">Bootstraps</p></li>
+            </ul>
+            <div class="btn-modal">
+              <a class="button" href="#" id="live-m"
+                >See live <i class="fa fa-circle-o-notch modal-icon"></i
+              ></a>
+              <a class="button" href="#" id="source-m"
+                >See source <i class="fa fa-github modal-icon"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="overlay"></div>
-    <!-- end popup1 -->
-    <!-- Card 2 -->
-    <div class="card">
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_2.png" alt="portfolio img" class="portfolio-img float-right" id="img2">
-      <div class="container">
-      <header class="work-header">
-        <h1 id="title2">Multi-Post<br>Stories</h1>
-        <ul>
-          <li class="canopy">CANOPY</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-        </ul>
-      </header>
-      <p id="descrip2">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups required.</p>
-      <ul class="tags">
-        <li><p id="lg1-2">html</p></li>
-        <li><p id="lg2-2">css</p></li>
-        <li><p id="lg3-2">javaScript</p></li>
-      </ul>
-      <button type="button" class="button" id="open2">See Project</button>
-      </div>
-    </div>
-    <!-- popup2 -->
-    <div class="modal" id="modal2">
-      <div class="modal-header">
-        <h1 id="title2-m">Tonic</h1>
-        <button type="button" class="close-b" id="close2">&times;</button>
-      </div>
-      <ul class="modal-ul">
-        <li class="canopy">CANOPY</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-      </ul>
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_2.png" alt="portfolio img" class="portfolio-img modal-img" id="img2-m">
-      <div class="modal-body">
-        <p id="descrip2-m">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        <div class="lg-btn">
-          <ul class="tags tags-modal">
-            <li><p id="lg1-m-2">html</p></li>
-            <li><p id="lg2-m-2">css</p></li>
-            <li><p id="lg3-m-2">javaScript</p></li>
-            <li class="desktop-lg"><p id="lg4-m-2">github</p></li>
-            <li class="desktop-lg"><p id="lg5-m-2">ruby</p></li>
-            <li class="desktop-lg"><p id="lg6-m-2">Bootstraps</p></li>
+      <div id="overlay"></div>
+      <!-- end popup1 -->
+      <!-- Card 2 -->
+      <div class="card">
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_2.png"
+          alt="portfolio img"
+          class="portfolio-img float-right"
+          id="img2"
+        />
+        <div class="container">
+          <header class="work-header">
+            <h1 id="title2">Multi-Post<br />Stories</h1>
+            <ul>
+              <li class="canopy">CANOPY</li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />Back End Dev
+              </li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />2015
+              </li>
+            </ul>
+          </header>
+          <p id="descrip2">
+            A daily selection of privately<br />
+            personalized reads; no accounts or<br />
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li><p id="lg1-2">html</p></li>
+            <li><p id="lg2-2">css</p></li>
+            <li><p id="lg3-2">javaScript</p></li>
           </ul>
-          <div class="btn-modal">
-            <a href="#" class="button" id="live-m-2">See live <i class="fa fa-circle-o-notch modal-icon"></i></a>
-            <a href="#" class="button" id="source-m-2">See source <i class="fa fa-github modal-icon"></i></a>
+          <button type="button" class="button" id="open2">See Project</button>
+        </div>
+      </div>
+      <!-- popup2 -->
+      <div class="modal" id="modal2">
+        <div class="modal-header">
+          <h1 id="title2-m">Tonic</h1>
+          <button type="button" class="close-b" id="close2">&times;</button>
+        </div>
+        <ul class="modal-ul">
+          <li class="canopy">CANOPY</li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />Back End Dev
+          </li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />2015
+          </li>
+        </ul>
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_2.png"
+          alt="portfolio img"
+          class="portfolio-img modal-img"
+          id="img2-m"
+        />
+        <div class="modal-body">
+          <p id="descrip2-m">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="lg-btn">
+            <ul class="tags tags-modal">
+              <li><p id="lg1-m-2">html</p></li>
+              <li><p id="lg2-m-2">css</p></li>
+              <li><p id="lg3-m-2">javaScript</p></li>
+              <li class="desktop-lg"><p id="lg4-m-2">github</p></li>
+              <li class="desktop-lg"><p id="lg5-m-2">ruby</p></li>
+              <li class="desktop-lg"><p id="lg6-m-2">Bootstraps</p></li>
+            </ul>
+            <div class="btn-modal">
+              <a href="#" class="button" id="live-m-2"
+                >See live <i class="fa fa-circle-o-notch modal-icon"></i
+              ></a>
+              <a href="#" class="button" id="source-m-2"
+                >See source <i class="fa fa-github modal-icon"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- end popup2 -->
-    <!-- Card 3 -->
-    <div class="card">
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_3.png" id="img3" alt="portfolio img" class="portfolio-img float-left">
-      <div class="container">
-      <header class="work-header">
-        <h1 id="title3">Tonic</h1>
-        <ul>
-          <li class="canopy">CANOPY</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-        </ul>
-      </header>
-      <p id="descrip3">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups required.</p>
-      <ul class="tags">
-        <li><p id="lg1-3">html</p></li>
-        <li><p id="lg2-3">css</p></li>
-        <li><p id="lg3-3">javaScript</p></li>
-      </ul>
-      <button type="button" class="button" id="open3">See Project</button>
-      </div>
-    </div>
-    <!-- Popup3 -->
-    <div class="modal" id="modal3">
-      <div class="modal-header">
-        <h1 id="title3-m">Tonic</h1>
-        <button type="button" class="close-b" id="close3">&times;</button>
-      </div>
-      <ul class="modal-ul">
-        <li class="canopy">CANOPY</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-      </ul>
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_3.png" alt="portfolio img" class="portfolio-img modal-img" id="img3-m">
-      <div class="modal-body">
-        <p id="descrip3-m">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        <div class="lg-btn">
-          <ul class="tags tags-modal">
-            <li><p id="lg1-m-3">html</p></li>
-            <li><p id="lg2-m-3">css</p></li>
-            <li><p id="lg3-m-3">javaScript</p></li>
-            <li class="desktop-lg"><p id="lg4-m-3">github</p></li>
-            <li class="desktop-lg"><p id="lg5-m-3">ruby</p></li>
-            <li class="desktop-lg"><p id="lg6-m-3">Bootstraps</p></li>
+      <!-- end popup2 -->
+      <!-- Card 3 -->
+      <div class="card">
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_3.png"
+          id="img3"
+          alt="portfolio img"
+          class="portfolio-img float-left"
+        />
+        <div class="container">
+          <header class="work-header">
+            <h1 id="title3">Tonic</h1>
+            <ul>
+              <li class="canopy">CANOPY</li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />Back End Dev
+              </li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />2015
+              </li>
+            </ul>
+          </header>
+          <p id="descrip3">
+            A daily selection of privately<br />
+            personalized reads; no accounts or<br />
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li><p id="lg1-3">html</p></li>
+            <li><p id="lg2-3">css</p></li>
+            <li><p id="lg3-3">javaScript</p></li>
           </ul>
-          <div class="btn-modal">
-            <a href="#" class="button" id="live-m-3">See live <i class="fa fa-circle-o-notch modal-icon"></i></a>
-            <a href="#" class="button" id="source-m-3">See source <i class="fa fa-github modal-icon"></i></a>
+          <button type="button" class="button" id="open3">See Project</button>
+        </div>
+      </div>
+      <!-- Popup3 -->
+      <div class="modal" id="modal3">
+        <div class="modal-header">
+          <h1 id="title3-m">Tonic</h1>
+          <button type="button" class="close-b" id="close3">&times;</button>
+        </div>
+        <ul class="modal-ul">
+          <li class="canopy">CANOPY</li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />Back End Dev
+          </li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />2015
+          </li>
+        </ul>
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_3.png"
+          alt="portfolio img"
+          class="portfolio-img modal-img"
+          id="img3-m"
+        />
+        <div class="modal-body">
+          <p id="descrip3-m">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="lg-btn">
+            <ul class="tags tags-modal">
+              <li><p id="lg1-m-3">html</p></li>
+              <li><p id="lg2-m-3">css</p></li>
+              <li><p id="lg3-m-3">javaScript</p></li>
+              <li class="desktop-lg"><p id="lg4-m-3">github</p></li>
+              <li class="desktop-lg"><p id="lg5-m-3">ruby</p></li>
+              <li class="desktop-lg"><p id="lg6-m-3">Bootstraps</p></li>
+            </ul>
+            <div class="btn-modal">
+              <a href="#" class="button" id="live-m-3"
+                >See live <i class="fa fa-circle-o-notch modal-icon"></i
+              ></a>
+              <a href="#" class="button" id="source-m-3"
+                >See source <i class="fa fa-github modal-icon"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- end popup 3 -->
-    <!-- Card 4 -->
-    <div class="card">
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_4.png" alt="portfolio img" class="portfolio-img float-right" id="img4">
-      <div class="container">
-      <header class="work-header">
-        <h1 id="title4">Multi-Post<br>Stories</h1>
-        <ul>
-          <li class="canopy">CANOPY</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-          <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-        </ul>
-      </header>
-      <p id="descrip4">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups required.</p>
-      <ul class="tags">
-        <li><p id="lg1-4">html</p></li>
-        <li><p id="lg2-4">css</p></li>
-        <li><p id="lg3-4">javaScript</p></li>
-      </ul>
-      <button type="button" class="button" id="open4">See Project</button>
-      </div>
-    </div>
-    <!-- Popup3 -->
-    <div class="modal" id="modal4">
-      <div class="modal-header">
-        <h1 id="title4-m">Tonic</h1>
-        <button type="button" class="close-b" id="close4">&times;</button>
-      </div>
-      <ul class="modal-ul">
-        <li class="canopy">CANOPY</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">Back End Dev</li>
-        <li><img src="./Exported_elements/Images/Counter.png" alt="bullet" class="bullet">2015</li>
-      </ul>
-      <img src="./Exported_elements/Images/Snapshoot_Portfolio_3.png" alt="portfolio img" class="portfolio-img modal-img" id="img4-m">
-      <div class="modal-body">
-        <p id="descrip4-m">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        <div class="lg-btn">
-          <ul class="tags tags-modal">
-            <li><p id="lg1-m-4">html</p></li>
-            <li><p id="lg2-m-4">css</p></li>
-            <li><p id="lg3-m-4">javaScript</p></li>
-            <li class="desktop-lg"><p id="lg4-m-4">github</p></li>
-            <li class="desktop-lg"><p id="lg5-m-4">ruby</p></li>
-            <li class="desktop-lg"><p id="lg6-m-4">Bootstraps</p></li>
+      <!-- end popup 3 -->
+      <!-- Card 4 -->
+      <div class="card">
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_4.png"
+          alt="portfolio img"
+          class="portfolio-img float-right"
+          id="img4"
+        />
+        <div class="container">
+          <header class="work-header">
+            <h1 id="title4">Multi-Post<br />Stories</h1>
+            <ul>
+              <li class="canopy">CANOPY</li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />Back End Dev
+              </li>
+              <li>
+                <img
+                  src="./Exported_elements/Images/Counter.png"
+                  alt="bullet"
+                  class="bullet"
+                />2015
+              </li>
+            </ul>
+          </header>
+          <p id="descrip4">
+            A daily selection of privately<br />
+            personalized reads; no accounts or<br />
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li><p id="lg1-4">html</p></li>
+            <li><p id="lg2-4">css</p></li>
+            <li><p id="lg3-4">javaScript</p></li>
           </ul>
-          <div class="btn-modal">
-            <a href="#" class="button" id="live-m-4">See live <i class="fa fa-circle-o-notch modal-icon"></i></a>
-            <a href="#" class="button" id="source-m-4">See source <i class="fa fa-github modal-icon"></i></a>
+          <button type="button" class="button" id="open4">See Project</button>
+        </div>
+      </div>
+      <!-- Popup3 -->
+      <div class="modal" id="modal4">
+        <div class="modal-header">
+          <h1 id="title4-m">Tonic</h1>
+          <button type="button" class="close-b" id="close4">&times;</button>
+        </div>
+        <ul class="modal-ul">
+          <li class="canopy">CANOPY</li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />Back End Dev
+          </li>
+          <li>
+            <img
+              src="./Exported_elements/Images/Counter.png"
+              alt="bullet"
+              class="bullet"
+            />2015
+          </li>
+        </ul>
+        <img
+          src="./Exported_elements/Images/Snapshoot_Portfolio_3.png"
+          alt="portfolio img"
+          class="portfolio-img modal-img"
+          id="img4-m"
+        />
+        <div class="modal-body">
+          <p id="descrip4-m">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="lg-btn">
+            <ul class="tags tags-modal">
+              <li><p id="lg1-m-4">html</p></li>
+              <li><p id="lg2-m-4">css</p></li>
+              <li><p id="lg3-m-4">javaScript</p></li>
+              <li class="desktop-lg"><p id="lg4-m-4">github</p></li>
+              <li class="desktop-lg"><p id="lg5-m-4">ruby</p></li>
+              <li class="desktop-lg"><p id="lg6-m-4">Bootstraps</p></li>
+            </ul>
+            <div class="btn-modal">
+              <a href="#" class="button" id="live-m-4"
+                >See live <i class="fa fa-circle-o-notch modal-icon"></i
+              ></a>
+              <a href="#" class="button" id="source-m-4"
+                >See source <i class="fa fa-github modal-icon"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- end popup 3 -->
-  </section>
-  <section class="about-info" id="about">
-    <div class="container-info">
-    <h1>About<br>Myself</h1>
-    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-    <h3>LET'S CONNECT</h3> 
-    <ul class="socials">
-      <li>
-        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-medium-m fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-github fa-lg"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fab fa-angellist fa-lg"></i></a>
-      </li>
-    </ul><br>
-    <button type="button" class="resume button">Get my resume</button><br>
-    </div>
-    <div class="container-languages">
-    <ul class="languages">
-      <li>Languages
-        <div class="tag-container">
-        <div class="language-item js">
-        <img src="./Bullets/Js.png" alt="js-logo" class="language-icon"><p>JavaScript</p>
-        </div>
-        <div class="language-item html">
-        <img src="./Bullets/html.png" alt="html-logo" class="language-icon"><p>HTML</p>
-        </div>
-        <div class="language-item css">
-        <img src="./Bullets/css.png" alt="css-logo" class="language-icon"><p>CSS</p>
-        </div>
+      <!-- end popup 3 -->
+    </section>
+    <section class="about-info" id="about">
+      <div class="container-info">
+        <h1>About<br />Myself</h1>
+        <p>
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <h3>LET'S CONNECT</h3>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-medium-m fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-github fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-angellist fa-lg"></i></a>
+          </li>
+        </ul>
+        <br />
+        <button type="button" class="resume button">Get my resume</button><br />
       </div>
-      </li>
-      <li>Frameworks<hr></li>
-      <li>Skills<hr></li>
-    </ul>
-  </div>
-  </section><br>
-  <form id="contact" class="form" action="https://formspree.io/f/xdobanld" method="POST">
-    <h2>Contact me</h2>
-    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <ul>
-      <li>
-        <label for="name"></label>
-        <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30" required>
-      </li>
-      <li>
-        <label for="email"></label>
-        <input type="email" name="user_mail" id="email" placeholder="youremail@email.com" required>
-      </li>
-      <li>
-        <label for="message"></label>
-        <textarea id="message" name="user_msg" placeholder="Write your message here" maxlength="500" required></textarea>
-      </li>
-    </ul>
-    <button type="submit" onclick="saveData()" class="submit-form button">Get in Touch</button>
-  </form>
-  <script src="script.js">
-    
-  </script>
-</body>
+      <div class="container-languages">
+        <ul class="languages">
+          <li>
+            Languages
+            <div class="tag-container">
+              <div class="language-item js">
+                <img
+                  src="./Bullets/Js.png"
+                  alt="js-logo"
+                  class="language-icon"
+                />
+                <p>JavaScript</p>
+              </div>
+              <div class="language-item html">
+                <img
+                  src="./Bullets/html.png"
+                  alt="html-logo"
+                  class="language-icon"
+                />
+                <p>HTML</p>
+              </div>
+              <div class="language-item css">
+                <img
+                  src="./Bullets/css.png"
+                  alt="css-logo"
+                  class="language-icon"
+                />
+                <p>CSS</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            Frameworks
+            <hr />
+          </li>
+          <li>
+            Skills
+            <hr />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <br />
+    <form
+      id="contact"
+      class="form"
+      action="https://formspree.io/f/xdobanld"
+      method="POST"
+    >
+      <h2>Contact me</h2>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <ul>
+        <li>
+          <label for="name"></label>
+          <input
+            type="text"
+            name="user_name"
+            id="name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
+        </li>
+        <li>
+          <label for="email"></label>
+          <input
+            type="email"
+            name="user_mail"
+            id="email"
+            placeholder="youremail@email.com"
+            required
+          />
+        </li>
+        <li>
+          <label for="message"></label>
+          <textarea
+            id="message"
+            name="user_msg"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+        </li>
+      </ul>
+      <button type="submit" class="submit-form button">Get in Touch</button>
+    </form>
+    <script src="script.js"></script>
+    <script src="lesson-storage.js"></script>
+  </body>
 </html>
